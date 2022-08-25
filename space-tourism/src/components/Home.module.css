@@ -1,0 +1,57 @@
+h1 {
+  font-weight: 300;
+  letter-spacing: 1.75px;
+}
+
+span {
+  font-family: "Zen Antique";
+  display: block;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.overlay {
+  padding: 0 1.5rem;
+  height: 100%;
+}
+
+.explore-container {
+  margin-top: 5rem;
+}
+
+.explore-btn {
+  font-family: "Zen Antique";
+  text-transform: uppercase;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+}
+
+a {
+  color: black;
+  letter-spacing: 1.75px;
+}
+
+.home {
+	background: url('../assets/home/background-home-mobile.jpg') no-repeat
+		center/cover;
+	min-height: 100vh;
+}
+
+.home .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+	.home {
+		background: url('../assets/home/background-home-desktop.jpg') no-repeat
+			center/cover;
+	}
+}
